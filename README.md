@@ -1,4 +1,4 @@
-# STS_UDCO
+# STS-UDCO
 This is the source code of the paper: "UAV-Empowered Dependency-Aware Computation Offloading in Device-Edge-Cloud Collaborative Computing: An Improved Actor-Critic DRL Approach". A brief introduction of this work is as follows:
 > Unmanned aerial vehicle (UAV)-empowered mobile edge computing (MEC) has become a research hotspot, ad-dressing challenges posed by the pressure of cloud computing and the limited service scope of MEC. 
 However, the constrained computing resources of UAVs and the data dependence on actual tasks hinder the implementation of efficient computational offloading (CO) in reality.
@@ -21,7 +21,8 @@ We note that a shorter version of this paper was accepted at the IEEE ICPADS con
 * `STS_UDCO.py` # The STS_UDCO algorithm
 * `Environment.py` # The UAV-empowered D-E-C collaborative computing environment model
 * `Observation_Normal.py` # The observation normalization mechanism
+* `DAG_Builder.py` # The builder and Parser of DAG Graph
 * `Usernum_record.py` # The user count recorder
 
-## usage
+## Usage
 To start our project files: run `STS_UDCO.py`
